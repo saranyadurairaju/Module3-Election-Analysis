@@ -141,3 +141,37 @@ So from the above percentage and total number of Votes, its clear that **Diana D
 The complete Election Audit results will be printed in the Terminal. Also, the same results will be saved in **election_analysis.txt** file in "analysis" folder.
 
 ![PyPoll_Challenge_Terminal](https://github.com/saranyadurairaju/Module3-Final-Assignment-Analysis/blob/main/PyPoll_Challenge_Terminal.png)
+
+## Summary
+
+### Common Script for Elections
+
+Code modification is a way of restructuring and optimizing existing code to give results for multiple elections without changing its behavior and results. It is a way to improve the code quality, saving time and money. 
+
+**United States presidential election**
+
+This same script can be modified and used for Presidential Election 
+
+- Create another column with State name
+- Need to find the county-wise winning candidate by using the dictionary
+- Then have to find the State winner by comparing the county result
+- whoever get the maximum county, will get the total State counts.
+- Winner will be announced based on the maximum State counts.
+
+**Multiple-choice referendums**
+
+For referendum it will be little different. But we can easily modify the same logic.
+
+- Here we will have referendum questions 
+- And corresponding "Yes" or "No" answers
+- For each questions we need to calculate the counts
+- Compare the total counts of yes or no
+- The result can be easily made out of the comparison  
+
+**User Interface to view the results**
+
+The above Congressional Election script can be modified such a way that any User can provide either the Candidate name or County name to see the results. In this way, during the bigger election with many number of results, any user can find the result for whichever county or candidate they are interested. 
+
+
+_Tom and his manager Seth can provide a nice and perfect **Election Audit** results to the Election Commission with a extra points to make the code generic. Hurry!!!_
+
