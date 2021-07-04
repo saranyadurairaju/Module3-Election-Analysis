@@ -5,11 +5,16 @@ Data analysis using Python is cleaner and provides better version control than V
 ## Overview of Project
 
 Tom is a **Colorado Board of Elections** Employee who is doing the **Election Audit** for Colorado Congressional District Election. So, we have a list of data with "Ballot ID, County and Candidate Name". Tom and his manager Seth is interested to find the below details out of the election result data.
-•	Total number of votes cast
-•	Candidates with their total and percentages of vote received
-•	Each County's total and percentage of votes 
-•	Largest turnout County based on total votes 
-•	The winner of the election based on popular vote
+
+  •	Total number of votes cast
+
+  •	Candidates with their total and percentages of vote received
+  
+  •	Each County's total and percentage of votes 
+  
+  •	Largest turnout County based on total votes 
+  
+  •	The winner of the election based on popular vote
  
 ### Purpose
 
