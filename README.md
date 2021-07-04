@@ -61,14 +61,14 @@ As there are large number of data for many candidates, counties and each have co
 
 * Finally we need to write the Winning candidate details in the terminals and the output text file:
 
-* Determine winning vote count, winning percentage, and candidate.
+** Determine winning vote count, winning percentage, and candidate. **
 
         if (votes > winning_count) and (vote_percentage > winning_percentage):
             winning_count = votes
             winning_candidate = candidate_name
             winning_percentage = vote_percentage
 
- * Print the winning candidate (to terminal)
+** Print the winning candidate (to terminal). **
  
         winning_candidate_summary = (
             f"-------------------------\n"
