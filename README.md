@@ -91,4 +91,53 @@ Performing the calculations and writing the report in the above methods will giv
 
 * Finding the correct way to automate the whole process and getting the result with a minimum run time is little challenging. But this helps us to try doing the things in many ways, which results in better solution. 
 
-* We have to make sure the data is sorted in proper order to find the unique Candidates, Counties and Votes. 
+* We have to make sure the data is sorted in proper order to find the unique Candidates, Counties and Votes.
+
+## Results
+
+Below is the full Python code to determine the Election results. 
+
+![PyPoll_Challenge](https://github.com/saranyadurairaju/Module3-Final-Assignment-Analysis/blob/main/PyPoll_Challenge.py)
+
+The total Votes cast in the Congressional Election is **369,711**
+ 
+#### The County-wise Results
+
+After the execution of the above mentioned Python program, we will get the county results as follows:
+
+	County Votes:
+	Jefferson: 10.5% (38,855)
+	Denver: 82.8% (306,055)
+	Arapahoe: 6.7% (24,801)
+
+  So, Jefferson County received 10.5% and Arapahoe received 6.7% of the total votes. But Denver has 82.8% votes cast in the Congressional Election. 
+  
+	  ---------------------------------------
+	     Largest County Turnout: Denver
+  	---------------------------------------
+
+#### The Candidate-wise Results
+
+Below is the Candidates details with their corresponding number of Votes and Percentage of Votes in the Election.
+
+	Charles Casper Stockham: 23.0% (85,213)
+	Diana DeGette: 73.8% (272,892)
+	Raymon Anthony Doane: 3.1% (11,606)
+
+* Raymon got a least number of 11,606 votes in total, which is a 3.1%
+
+* Another Candidate Charles received a 23% of votes with a total of 85,213.
+
+* Diana DeGette got a maximum number of votes, with 73.8% and 272,892 in total.
+
+#### The Winner of the Election
+
+So from the above percentage and total number of Votes, its clear that **Diana DeGette** won the Election and **Denver** county had a maximum Votes.
+ 
+	Winner: Diana DeGette
+	Winning Vote Count: 272,892
+	Winning Percentage: 73.8% 	
+
+The complete Election Audit results will be printed in the Terminal. Also, the same results will be saved in **election_analysis.txt** file in "analysis" folder.
+
+![PyPoll_Challenge_Terminal](https://github.com/saranyadurairaju/Module3-Final-Assignment-Analysis/blob/main/PyPoll_Challenge_Terminal.png)
